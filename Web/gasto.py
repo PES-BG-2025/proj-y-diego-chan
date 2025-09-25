@@ -4,7 +4,6 @@ import pandas as pd
 import os
 
 # Proyecto GastoController5000
-
 # Comenzaremos definiendo funciones 
 
 # nombre del archivo donde se guardaran los gastos (en formato CSV)
