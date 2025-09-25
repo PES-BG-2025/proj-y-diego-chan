@@ -79,7 +79,7 @@ inicializar_base_de_datos()
 todos_los_gastos_df = cargar_todos_los_gastos()
 
 # Categorías predefinidas
-CATEGORIAS = ["Consumo diario", "Ocio", "Transporte", "Salud", "Educación"]
+CATEGORIAS = ["Consumo diario", "Ocio", "Transporte", "Salud", "Educación","Vestuario"]
 
 # Título
 st.title("📊 GASTOCONTROLLER5000") #comando los modificadaores de streamlite son los que tiene st
