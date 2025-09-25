@@ -1,7 +1,7 @@
 import streamlit as st 
-import tkinter as tk
+# import tkinter as tk
 import matplotlib.pyplot as plt
-from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
+# from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import pandas as pd
 import os
 
@@ -36,7 +36,7 @@ def update_pie_chart(df):
     if not category_expenses.empty:
         ax.pie(category_expenses, labels=category_expenses.index, autopct='%1.1f%%', startangle=140)
         ax.set_title("Distribución de gasto por categoría")
-        ax.axis('igual')
+        ax.axis('equal')
     else:
         ax.text(0, 0, "No hay datos de gastos disponibles", horizontalalignment='center', verticalalignment='center')
         ax.set_title("Distribución de gasto por categoría")
@@ -85,6 +85,5 @@ update_pie_chart(st.session_state.expenses_df)
 # Mostrar tabla de datos (opcional)
 st.header("📋 Todos los gastos")
 st.dataframe(st.session_state.expenses_df)
-
 
 # %%
