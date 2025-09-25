@@ -1,14 +1,11 @@
 import streamlit as st 
-# import tkinter as tk
 import matplotlib.pyplot as plt
-# from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import pandas as pd
 import os
 
 # Proyecto GastoController5000
 # Cargamos librerias, tkinter, flet
 # Comenzaremos definiendo funciones 
-
 
 # nombre del archivo donde se guardaran los gastos (en formato CSV)
 AG = 'gastos.csv'
