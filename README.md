@@ -9,18 +9,11 @@ Una aplicación sencilla pero poderosa para gestionar y visualizar tus gastos pe
 
 ## 🚀 Versiones Disponibles
 
-### 1. [Versión Desktop (Tkinter + CSV)](desktop/)
-> Ideal para uso local sin servidor.
-
-- Interfaz gráfica simple.
-- Almacena datos en un archivo `expenses.csv`.
-- Gráfico de torta en tiempo real.
-
-### 2. [Versión Web (Streamlit + SQLite)](web/)
+### 1. [Versión Web (Streamlit + + CSV/SQLite)](web/)
 > Ideal para acceso desde navegador, con más funcionalidades.
 
 - Interfaz web moderna y responsive.
-- Base de datos SQLite integrada.
+- Base de datos SQLite integrada. (version CSV:Almacena datos en un archivo `gastos.csv`.)
 - Filtros por fechas y categorías.
 - Gráficos de barras por periodo (semanal/mensual/anual) + gráfico de torta del consumo total en el tiempo.
 - Estadísticas rápidas (total, promedio).
@@ -31,10 +24,6 @@ Una aplicación sencilla pero poderosa para gestionar y visualizar tus gastos pe
 
 Ambas versiones requieren **Python 3.8 o superior**.
 
-### Para la versión Desktop:
-```bash
-pip install -r desktop/requirements-desktop.txt
-```
 ### Para la versión Web:
 ```bash
 pip install -r web/requirements-web.txt
