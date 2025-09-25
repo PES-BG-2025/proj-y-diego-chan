@@ -2,8 +2,8 @@
 
 Una aplicación sencilla pero poderosa para gestionar y visualizar tus gastos personales. Disponible en dos versiones:
 
-- **Versión Desktop**: Interfaz gráfica con `tkinter` y almacenamiento en CSV.
-- **Versión Web**: Interfaz moderna con `Streamlit`, base de datos `SQLite`, gráficos por periodos y filtros avanzados.
+
+- **Versión Web**: Interfaz moderna con `Streamlit`, base de datos `SQLite` y otra con CSV, gráficos por periodos y filtros avanzados.
 
 ---
 
