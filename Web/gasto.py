@@ -4,7 +4,7 @@ import pandas as pd
 import os
 
 # Proyecto GastoController5000
-# Cargamos librerias, tkinter, flet
+
 # Comenzaremos definiendo funciones 
 
 # nombre del archivo donde se guardaran los gastos (en formato CSV)
@@ -46,12 +46,12 @@ if 'expenses_df' not in st.session_state:
     st.session_state.expenses_df = load_expenses()
 
 # Título de la app
-st.title("📊 Aplicación web de seguimiento de gastos")
+st.title("📊 Gasto Controller 5000")
 
 # Formulario para agregar gasto
 st.header("➕ Agregar nuevo gasto")
 
-CATEGORIAS = ["Consumo diario", "Ocio", "Transporte", "Salud", "Educación"]
+CATEGORIAS = ["Consumo diario", "Ocio", "Transporte", "Salud", "Educación", "Vestuario"]
 
 with st.form("form_gasto"):
     producto = st.text_input("Producto")
@@ -83,4 +83,3 @@ update_pie_chart(st.session_state.expenses_df)
 st.header("📋 Todos los gastos")
 st.dataframe(st.session_state.expenses_df)
 
-# %%
